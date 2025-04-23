@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,17 +7,21 @@ body{
     margin: 0;
 }
 
-.Trafic-Light{
+.Trafic-Light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     width: 300px;
     height: 500px;
     background: #181818;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
 }
 
-.Light{
+.Light {
     width: 80px;
     height: 80px;
     background: #111;
@@ -28,6 +32,33 @@ body{
 
 }
 
-.red.active{background: red;}
-.yellow.active{background: yellow;}
-.green.active{background: green;}
+.Red {
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.Yellow {
+    background: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.Green {
+    background: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.active-red {
+    box-shadow: 0px 1px 93px 0px rgb(248, 2, 2);
+}
+.active-yellow{
+    box-shadow: 0px 1px 93px 0px rgb(233, 250, 0);
+}
+.active-green {
+    box-shadow: 0px 1px 93px 0px rgb(2, 203, 15);
+}
